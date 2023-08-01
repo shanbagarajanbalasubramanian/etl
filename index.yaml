@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  etl:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2023-08-01T07:27:59.708449+05:30"
+    dependencies:
+    - name: pairity-score-celery-worker
+      repository: file://../../celery-worker
+      version: 0.1.0
+    - name: dask
+      repository: https://helm.dask.org/
+      version: 4.5.1
+    description: Pairity DataScience ETL deployment
+    digest: c8f7e032b1f742df8efd8126b67a29ba5313133e86e78db7705b9911f3e42dfa
+    home: https://gitlab.com/pairity/pairity_score
+    maintainers:
+    - email: engineering@pairity.ai
+      name: Pairity Engineering
+    name: etl
+    urls:
+    - https://github.com/shanbagarajanbalasubramanian/etl/etl-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-08-01T07:27:59.707089+05:30"
